@@ -1,12 +1,120 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="description" content="Catálogo de Filmes - Explore e descubra novos filmes">
+    <title>Catálogo de Filmes</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+
+    <!-- Cabeçalho -->
+    <header>
+        <h1>Catálogo de Filmes</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="filmes.html">Filmes</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+        <div class="botoes-controle">
+            <button>Login</button>
+            <button>Configurações</button>
+        </div>
+        <form>
+            <input type="text" placeholder="Buscar filmes...">
+            <button type="submit">Buscar</button>
+        </form>
+    </header>
+
+    <!-- Menu categorias -->
+    <aside class="menu-lateral">
+        <h2></h2>
+        <ul>
+            <li><a href="index.html">Início</a></li>
+            <li><a href="acao.html">Ação</a></li>
+            <li><a href="comedia.html">Comédia</a></li>
+            <li><a href="terror.html">Terror</a></li>
+            <li><a href="drama.html">Drama</a></li>
+            <li><a href="scifi.html">Sci-Fi</a></li>
+        </ul>
+    </aside>
+
+    <!-- Conteúdo Principal -->
+    <main>
+
+        <!-- Banner Principal -->
+        <section class="filme-destaque">
+            <img src="https://picsum.photos/800/200" alt="Filme em Destaque">
+            <div class="descricao">
+                <h3>Filme em Destaque</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At sint optio exercitationem voluptatum vitae.</p>
+            </div>
+        </section>
+    </section>
+
+        <!-- Seção de Filmes Recomendados -->
+        <section class="filmes-recomendados">
+            <h2>Filmes Recomendados</h2>
+            <div class="grid-filmes">
+                <article class="filme">
+                    <img src="https://picsum.photos/200/300" alt="Filme 1">
+                    <h3>Filme 1</h3>
+                    <p>Lorem ipsum dolor sit amet...</p>
+                </article>
+                <article class="filme">
+                    <img src="https://picsum.photos/200/300" alt="Filme 2">
+                    <h3>Filme 2</h3>
+                    <p>Lorem ipsum dolor sit amet...</p>
+                </article>
+                <article class="filme">
+                    <img src="https://picsum.photos/200/300" alt="Filme 3">
+                    <h3>Filme 3</h3>
+                    <p>Lorem ipsum dolor sit amet...</p>
+                </article>
+                <article class="filme">
+                    <img src="https://picsum.photos/200/300" alt="Filme 4">
+                    <h3>Filme 4</h3>
+                    <p>Lorem ipsum dolor sit amet...</p>
+                </article>
+            </div>
+        </section>
+
+        <!-- Seção de Últimos Lançamentos -->
+        <section class="ultimos-lancamentos">
+            <h2>Últimos Lançamentos</h2>
+            <div class="grid-filmes">
+                <article class="filme">
+                    <img src="https://picsum.photos/200/300" alt="Filme 5">
+                    <h3>Filme 5</h3>
+                    <p>Lorem ipsum dolor sit amet...</p>
+                </article>
+                <article class="filme">
+                    <img src="https://picsum.photos/200/300" alt="Filme 6">
+                    <h3>Filme 6</h3>
+                    <p>Lorem ipsum dolor sit amet...</p>
+                </article>
+                <article class="filme">
+                    <img src="https://picsum.photos/200/300" alt="Filme 7">
+                    <h3>Filme 7</h3>
+                    <p>Lorem ipsum dolor sit amet...</p>
+                </article>
+                <article class="filme">
+                    <img src="https://picsum.photos/200/300" alt="Filme 8">
+                    <h3>Filme 8</h3>
+                    <p>Lorem ipsum dolor sit amet...</p>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <!-- Rodapé -->
+    <footer>
+        <p>&copy; 2025 Catálogo de Filmes - Todos os direitos reservados.</p>
+    </footer>
+
 </body>
 </html>
