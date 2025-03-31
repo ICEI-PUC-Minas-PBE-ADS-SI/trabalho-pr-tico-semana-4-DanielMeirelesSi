@@ -8,15 +8,27 @@ Nessa atividade,vamos evoluir o projeto para que a home-page funcione bem tanto 
 
 ## Informações Gerais
 
-- Nome:
-- Matricula:
-- Proposta de projeto escolhida:
-- Breve descrição sobre seu projeto:
+- Nome: Daniel Meireles Aquino Jorge
+- Matricula:882875
+- Proposta de projeto escolhida: Catalogo de fimes
+- Breve descrição sobre seu projeto: 
+  Este site simula um catálogo de filmes com funcionalidades visuais como:
+. Página inicial com destaque para filmes recomendados e últimos lançamentos;
+. Menu de categorias;
+. Barra de busca e navegação;
+. Layout responsivo adaptado para diferentes tamanhos de tela (desktop, tablet e celular).
 
 ## Print da versão responsiva com CSS puro
 
-<<  COLOQUE A IMAGEM AQUI >>
+## 📸 Prints da Versão CSS Puro
+
+![Print 1](public/printcss1.jpg.png)  
+![Print 2](public/printcss2.jpg.png)  
+![Print 3](public/printcss3.jpg.png)
 
 ## Print da versão responsiva com Bootstrap
 
-<<  COLOQUE A IMAGEM AQUI >>
+![Print 1](public/printbootstrap1.jpg.png)  
+![Print 2](public/printbootstrap2.jpg.png)  
+![Print 3](public/printbootstrap3.jpg.png)
+
