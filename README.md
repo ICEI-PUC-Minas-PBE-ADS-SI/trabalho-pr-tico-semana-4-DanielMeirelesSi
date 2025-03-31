@@ -9,7 +9,7 @@ Nessa atividade,vamos evoluir o projeto para que a home-page funcione bem tanto 
 ## Informações Gerais
 
 - Nome: Daniel Meireles Aquino Jorge
-- Matricula:882875
+- Matricula: 882875
 - Proposta de projeto escolhida: Catalogo de fimes
 - Breve descrição sobre seu projeto: 
   Este site simula um catálogo de filmes com funcionalidades visuais como:
